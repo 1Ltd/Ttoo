@@ -314,5 +314,6 @@ export const Response = memo(
       </div>
     );
   },
+  Response.displayName = 'Response';
   (prevProps, nextProps) => prevProps.children === nextProps.children,
 );
